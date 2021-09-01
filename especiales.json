@@ -1,0 +1,278 @@
+[
+    {
+        "name": "AEROPUERTO ESPECIAL",
+        "price": 14,
+        "id": "aeropuerto-especial",
+        "category": "ARROZ"
+    },
+    {
+        "name": "ARROZ CHAUFA CON CHAMPIÑONES",
+        "price": 14,
+        "id": "chaufa-champiñones",
+        "category": "ARROZ"
+    },
+    {
+        "name": "ARROZ CHAUFA CON CHANCHO",
+        "price": 14,
+        "id": "chaufa-chancho",
+        "category": "ARROZ"
+    },
+    {
+        "name": "ARROZ CHAUFA ESPECIAL",
+        "price": 14,
+        "id": "chaufa-especial",
+        "category": "ARROZ"
+    },
+    {
+        "name": "ARROZ CHAUFA CON LANGOSTINOS",
+        "price": 14,
+        "id": "chaufa-langostinos",
+        "category": "ARROZ"
+    },
+    {
+        "name": "ARROZ CHAUFA CON POLLO",
+        "price": 14,
+        "id": "chaufa-pollo",
+        "category": "ARROZ"
+    },
+    {
+        "name": "CHICHARRON DE POLLO",
+        "price": 14,
+        "id": "chicharron-pollo",
+        "category": "ESPECIALES"
+    },
+    {
+        "name": "COMBINADO CHIJAUKAY",
+        "price": 14,
+        "id": "combi-chijaukay",
+        "category": "COMBINADOS"
+    },
+    {
+        "name": "COMBINADO ENROLLADO",
+        "price": 14,
+        "id": "combi-enrollado",
+        "category": "COMBINADOS"
+    },
+    {
+        "name": "COMBINADO KAMLOO",
+        "price": 14,
+        "id": "combi-kamloo",
+        "category": "COMBINADOS"
+    },
+    {
+        "name": "COMBINADO POLLO CON VERDURAS",
+        "price": 14,
+        "id": "combi-verduras",
+        "category": "COMBINADOS"
+    },
+    {
+        "name": "COMBINADO TALLARIN",
+        "price": 14,
+        "id": "combi-tallarin",
+        "category": "COMBINADOS"
+    },
+    {
+        "name": "COMBINADO TIPAKAY",
+        "price": 14,
+        "id": "combi-tipakay",
+        "category": "COMBINADOS"
+    },
+    {
+        "name": "ENROLLADO EN SALSA BLANCA",
+        "price": 14,
+        "id": "enrollado-blanco",
+        "category": "ESPECIALES"
+    },
+    {
+        "name": "KAMLOO WANTAN ESPECIAL",
+        "price": 14,
+        "id": "kamloo-wantan",
+        "category": "ESPECIALES"
+    },
+    {
+        "name": "PATO ASADO AL AJO ESPECIAL",
+        "price": 14,
+        "id": "pato-ajo",
+        "category": "PATO"
+    },
+    {
+        "name": "PATO ASADO CON PIÑA",
+        "price": 14,
+        "id": "pato-piña",
+        "category": "PATO"
+    },
+    {
+        "name": "PATO ASADO CON TAUSÍ",
+        "price": 14,
+        "id": "pato-tausi",
+        "category": "PATO"
+    },
+    {
+        "name": "PATO CON VERDURAS",
+        "price": 14,
+        "id": "pato-verduras",
+        "category": "PATO"
+    },
+    {
+        "name": "POLLO CINCO SABORES",
+        "price": 14,
+        "id": "pollo-5-sabores",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO AL AJO ESPECIAL",
+        "price": 14,
+        "id": "pollo-ajo",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO CON CHAMPIÑONES",
+        "price": 14,
+        "id": "pollo-champiñones",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO CHIJAUKAY ESPECIAL",
+        "price": 14,
+        "id": "pollo-chijaukay",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO EN SALSA CURRY",
+        "price": 14,
+        "id": "pollo-curry",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO ENROLLADO ESPECIAL",
+        "price": 14,
+        "id": "pollo-enrollado",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO CON FREJOLITO",
+        "price": 14,
+        "id": "pollo-frejolito",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO LIMONKAY ESPECIAL",
+        "price": 14,
+        "id": "pollo-limonkay",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO CON PIÑA Y DURAZNO",
+        "price": 14,
+        "id": "pollo-piña",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO CON TAUSÍ ESPECIAL",
+        "price": 14,
+        "id": "pollo-tausi",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO TIPAKAY ESPECIAL",
+        "price": 14,
+        "id": "pollo-tipakay",
+        "category": "POLLO"
+    },
+    {
+        "name": "POLLO CON VERDURAS",
+        "price": 14,
+        "id": "pollo-verduras",
+        "category": "POLLO"
+    },
+    {
+        "name": "SOPA FUCHIFU ESPECIAL",
+        "price": 14,
+        "id": "sopa-fuchifu",
+        "category": "SOPAS"
+    },
+    {
+        "name": "SOPA PAK POO ESPECIAL",
+        "price": 14,
+        "id": "sopa-pakpoo",
+        "category": "SOPAS"
+    },
+    {
+        "name": "SOPA DE PATO ESPECIAL",
+        "price": 14,
+        "id": "sopa-pato",
+        "category": "SOPAS"
+    },
+    {
+        "name": "SOPA DE POLLO ESPECIAL",
+        "price": 14,
+        "id": "sopa-pollo",
+        "category": "SOPAS"
+    },
+    {
+        "name": "SOPA WANTAN ESPECIAL",
+        "price": 14,
+        "id": "sopa-wantan",
+        "category": "SOPAS"
+    },
+    {
+        "name": "TALLARÍN CON CHANCHO",
+        "price": 14,
+        "id": "tallarin-chancho",
+        "category": "TALLARINES"
+    },
+    {
+        "name": "TALLARÍN CON PATO ASADO",
+        "price": 14,
+        "id": "tallarin-pato",
+        "category": "TALLARINES"
+    },
+    {
+        "name": "TALLARÍN CON POLLO",
+        "price": 14,
+        "id": "tallarin-pollo",
+        "category": "TALLARINES"
+    },
+    {
+        "name": "TALLARÍN SAMSI ESPECIAL",
+        "price": 14,
+        "id": "tallarin-samsi",
+        "category": "TALLARINES"
+    },
+    {
+        "name": "TALLARÍN CON POLLO EN TROZOS",
+        "price": 14,
+        "id": "tallarin-trozos",
+        "category": "TALLARINES"
+    },
+    {
+        "name": "CHANCHO ASADO AL AJO",
+        "price": 14,
+        "id": "chancho-ajo",
+        "category": "CHANCHO"
+    },
+    {
+        "name": "CHANCHO CON TAMARINDO",
+        "price": 14,
+        "id": "chancho-tamarindo",
+        "category": "CHANCHO"
+    },
+    {
+        "name": "CHANCHO CON TAUSÍ",
+        "price": 14,
+        "id": "chancho-tausi",
+        "category": "CHANCHO"
+    },
+    {
+        "name": "CHANCHO CON VERDURAS",
+        "price": 14,
+        "id": "chancho-verduras",
+        "category": "CHANCHO"
+    },
+    {
+        "name": "WANTAN FRITO (12 UNID.)",
+        "price": 8,
+        "id": "wantan-frito",
+        "category": "ESPECIALES"
+    }
+]

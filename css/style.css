@@ -1,0 +1,130 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+  background-color: #f4f4f8;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fa-mobile-alt {
+  color: #fd3b2f;
+}
+
+/* Banner */
+.container .banner {
+  background-image: url("/images/banner001.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.container .banner-text {
+  position: relative;
+  top: 30%;
+  left: 85px;
+  width: 340px;
+  color: #fff;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.container .banner-text h4 {
+  font-size: 35px;
+}
+
+/* Search */
+.input-group-text {
+  background-color: #fd3b2f;
+  color: #fff;
+  border: 1px solid #fd3b2f;
+}
+
+.btn-cancel {
+  background-color: #fd3b2f;
+  border: 1px solid #fd3b2f;
+  color: #fff;
+}
+
+/* Menu */
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-container .btn-danger {
+  background-color: #fd3b2f;
+}
+
+.menu-container .btn-danger:hover {
+  background-color: #fd3b2f;
+}
+
+.btn-outline-danger {
+  color: #fd3b2f;
+  border-color: #fd3b2f;
+}
+
+.btn-outline-danger:hover {
+  background-color: #fd3b2f;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #fd3b2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-container .text-footer {
+  line-height: 40px;
+  margin: 10px;
+}
+
+.footer-container .footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 8px;
+  height: auto;
+  margin: 20px auto;
+}
+
+/* Whatsapp */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+/*# sourceMappingURL=style.css.map */

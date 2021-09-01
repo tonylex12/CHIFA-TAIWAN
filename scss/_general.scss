@@ -1,0 +1,118 @@
+/* General */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    background-color: #f4f4f8;
+}
+
+img {
+    max-width: 100%;
+}
+
+.fa-mobile-alt {
+    color: $color1;
+}
+
+/* Banner */
+.container {
+    .banner {
+        background-image: url("/images/banner001.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        &-text {
+            position: relative;
+            top: 30%;
+            left: 85px;
+            width: 340px;
+            color: #fff;
+            font-family: 'Cormorant Garamond', serif;
+            h4 {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+/* Search */
+.input-group-text {
+    background-color: $color1;
+    color: #fff;
+    border: 1px solid $color1;
+}
+
+.btn-cancel {
+    background-color: $color1;
+    border: 1px solid $color1;
+    color: #fff;
+}
+
+/* Menu */
+.menu-container {
+    @include flex-layout;
+    flex-wrap: wrap;
+    .btn-danger {
+        background-color: $color1;
+        &:hover {
+            background-color: $color1;
+        }
+    }
+}
+
+.btn-outline-danger {
+    color: $color1;
+    border-color: $color1;
+    &:hover {
+        background-color: $color1;
+    }
+}
+
+/* Footer */
+.footer-container {
+    background-color: $color1;
+    @include flex-layout;
+    flex-wrap: wrap;
+    .text-footer {
+        line-height: 40px;
+        margin: 10px;
+    }
+    .footer-div {
+        @include flex-layout;
+        flex-direction: column;
+        border: 1px solid #fff;
+        text-align: center;
+        border-radius: 8px;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+
+/* Whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
