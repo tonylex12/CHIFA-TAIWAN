@@ -12,11 +12,13 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans" rel="stylesheet">
 </head>
 <body>
-    <div class="bg-light p-3 text-center">
+    <div class="bg-red p-3 text-center text-white">
         <span class="fs-6">Para pedidos llame al <span><i class="fas fa-mobile-alt mx-2"></i></span>(062) - 511822 o haga su pedido por Whatsapp</span>
     </div>
     <!--Header-->
@@ -34,7 +36,7 @@
                     <a class="nav-link active" aria-current="page" href="#menu">MENU</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-4 fs-5 ms-3" href="#especiales">PLATOS ESPECIALES</a>
+                    <a class="nav-link me-4 fs-5 ms-3" href="/especiales.html">PLATOS ESPECIALES</a>
                 </li>
                 <li class="nav-item me-4 fs-5">
                     <a class="nav-link ms-3" href="#contacto">CONTÁCTENOS</a>
@@ -45,7 +47,7 @@
     </header>
 
     <!-- Banner -->
-    <div class="container col-md-8 py-5">
+    <div class="container col-md-8 py-5 my-3">
         <div class="banner">
             <div class="banner-text text-center">
                 <h4>Los verdaderos especialistas en comida china y otros platos para su paladar</h4>
@@ -53,20 +55,15 @@
         </div>
     </div>
 
-    <!-- Search -->
-    <div class="col-lg-6 mx-auto my-1 d-flex justify-content-center">
-        <div class="input-group m-1 d-flex flex-row">
-            <span class="input-group-text" id="searchDesc"><i class="fas fa-search"></i></span>
-            <input id="search-dish" type="text" class="form-control" placeholder="Busque el plato de su preferencia" aria-label="Username" aria-describedby="basic-addon1">
-            <button class="btn-cancel px-2"><i class="fas fa-times"></i></button>
-        </div>
+    <!-- Schedule -->
+    <div class="schedule-container p-5">
+      <h1 class="text-center fw-bold schedule-title" id="menu">HORARIO DE ATENCIÓN</h1>
+      <h6 class="text-center schedule-description pt-2 fw-light text-white">DE LUNES A DOMINGO DE <span class="fw-bold">12PM A 4PM</span> Y DE <span class="fw-bold">7PM A 10:30 PM</span> (Los martes no hay atención)</h6>
     </div>
 
-    <!-- Results -->
-    <div class="menu-container col-md-8 mx-auto py-4" id="results-container"></div>
-
     <!-- Menu -->
-    <h1 class="text-center py-2 fw-bold" id="menu">MENÚ DEL DIA</h1>
+    <h1 class="text-center pt-5 fw-bold" id="menu">Menú Chifa</h1>
+    <h4 class="text-center py-1 fw-light" id="menu">(ATENCIÓN SOLO EN EL ALMUERZO)</h4>
 
     <div class="menu-container col-md-8 mx-auto py-5">
         <div class="card m-2 p-2" style="width: 18rem;">
@@ -82,7 +79,7 @@
             <div class="card-body">
               <h5 class="card-title text-center fs-4">POLLO CON<br>CHAMPIÑONES</h5>
               <p class="card-text text-center">Más sopa y gaseosa,<br>con arroz blanco o arroz chaufa.</p>
-              <button href="#" class="btn btn-danger d-block mx-auto">S/. 13.00</button>
+              <button href="#" class="btn btn-danger d-block mx-auto">S/. 12.00</button>
             </div>
         </div>
         <div class="card m-2 p-2" style="width: 18rem;">
@@ -106,7 +103,7 @@
             <div class="card-body">
               <h5 class="card-title text-center fs-4">CHANCHO CON<br>TAMARINDO</h5>
               <p class="card-text text-center">Más sopa y gaseosa,<br>con arroz blanco o arroz chaufa.</p>
-              <button href="#" class="btn btn-danger d-block mx-auto">S/. 13.00</button>
+              <button href="#" class="btn btn-danger d-block mx-auto">S/. 12.00</button>
             </div>
         </div>
         <div class="card m-2 p-2" style="width: 18rem;">
@@ -114,7 +111,7 @@
             <div class="card-body">
               <h5 class="card-title text-center fs-4">POLLO CON<br>VERDURAS</h5>
               <p class="card-text text-center">Más sopa y gaseosa,<br>con arroz blanco o arroz chaufa.</p>
-              <button href="#" class="btn btn-danger d-block mx-auto">S/. 13.00</button>
+              <button href="#" class="btn btn-danger d-block mx-auto">S/. 12.00</button>
             </div>
         </div>
         <div class="card m-2 p-2" style="width: 18rem;">
@@ -231,28 +228,12 @@
         </div>
     </div>
 
-    <!-- Especiales -->
-    <h1 class="text-center py-2 fw-bold" id="especiales">PLATOS ESPECIALES</h1>
-
-    <div class="menu-container col-md-8 mx-auto py-4">
-      <button type="button" class="btn btn-danger m-1" id="allBtn">TODOS</button>
-      <button type="button" class="btn btn-danger m-1" id="arrozBtn">ARROZ</button>
-      <button type="button" class="btn btn-danger m-1" id="especialesBtn">ESPECIALES</button>
-      <button type="button" class="btn btn-danger m-1" id="combinadosBtn">COMBINADOS</button>
-      <button type="button" class="btn btn-danger m-1" id="patoBtn">PATO</button>
-      <button type="button" class="btn btn-danger m-1" id="polloBtn">POLLO</button>
-      <button type="button" class="btn btn-danger m-1" id="chanchoBtn">CHANCHO</button>
-      <button type="button" class="btn btn-danger m-1" id="sopasBtn">SOPAS</button>
-      <button type="button" class="btn btn-danger m-1" id="tallarinesBtn">TALLARINES</button>
-    </div>
-
-    <div class="menu-container col-md-8 mx-auto pt-3 pb-5" id="especialesContainer"></div>
-
     <!-- Mapa -->
-    <h2 class="text-center py-2 fw-bold">UBÍCANOS EN AMARILIS</h2>
-
-    <div class="menu-container col-md-8 mx-auto p-4 my-4">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15719.814223966963!2d-76.2398333!3d-9.9378225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22b5cb9d56d9676f!2sCHIFA%20TAIWAN!5e0!3m2!1ses-419!2spe!4v1630446489576!5m2!1ses-419!2spe" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="map-container bg-white py-4">
+      <h2 class="text-center pt-3 fw-bold">UBÍCANOS EN AMARILIS</h2>
+      <div class="menu-container col-md-8 mx-auto p-4 my-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15719.814223966963!2d-76.2398333!3d-9.9378225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22b5cb9d56d9676f!2sCHIFA%20TAIWAN!5e0!3m2!1ses-419!2spe!4v1630446489576!5m2!1ses-419!2spe" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
 
      <!-- Whatsapp -->
@@ -262,7 +243,7 @@
 
     <!-- Footer -->
 
-    <div class="footer-container py-1 mt-5" id="contacto">
+    <div class="footer-container py-1 mt-1" id="contacto">
       <div class="col-md-6 mx-auto">
         <h4 class="text-center text-white"><i class="fas fa-utensils m-3"></i>CHIFA TAIWAN</h4>
         <p class="text-white text-center px-5 mx-2 text-footer fs-5">Ponemos a su disposición la mejor comida cantonesa, a fin de que puedan disfrutar de cerca un festival de sabores al estilo chino. <br> ¡LOS ESPERAMOS!</p>

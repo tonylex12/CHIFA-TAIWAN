@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIFA TAIWAN</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-red p-3 text-center text-white">
+        <span class="fs-6">Para pedidos llame al <span><i class="fas fa-mobile-alt mx-2"></i></span>(062) - 511822 o haga su pedido por Whatsapp</span>
+    </div>
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white navbar-light px-lg-5 py-3">
+            <a href="index.html" class="navbar-brand mb-0 ms-lg-5 ms-3">
+                <img class="navbar-logo d-inline-block img-fluid ms-lg-5" src="images/logo.svg" width="270" height="auto"> 
+            </a>
+            <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-lg-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-5">
+                <li class="nav-item me-4 fs-5 ms-3">
+                    <a class="nav-link" aria-current="page" href="/index.html">MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active me-4 fs-5 ms-3" href="#especiales">PLATOS ESPECIALES</a>
+                </li>
+                <li class="nav-item me-4 fs-5">
+                    <a class="nav-link ms-3" href="#contacto">CONTÁCTENOS</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div class="container col-md-8 py-5 my-3">
+        <div class="banner">
+            <div class="banner-text text-center">
+                <h4>Los verdaderos especialistas en comida china y otros platos para su paladar</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Schedule -->
+    <div class="schedule-container p-5">
+      <h1 class="text-center fw-bold schedule-title" id="menu">HORARIO DE ATENCIÓN</h1>
+      <h6 class="text-center schedule-description pt-2 fw-light text-white">DE LUNES A DOMINGO DE <span class="fw-bold">12PM A 4PM</span> Y DE <span class="fw-bold">7PM A 10:30 PM</span> (Los martes no hay atención)</h6>
+    </div>
+
+    <!-- Search -->
+    <div class="col-lg-6 mx-auto my-1 pt-5 d-flex justify-content-center">
+        <div class="input-group m-1 d-flex flex-row">
+            <span class="input-group-text" id="searchDesc"><i class="fas fa-search"></i></span>
+            <input id="search-dish" type="text" class="form-control" placeholder="Busque su plato favorito" aria-label="Username" aria-describedby="basic-addon1">
+            <button class="btn-cancel px-2"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <!-- Results -->
+    <div class="menu-container col-md-8 mx-auto py-4" id="results-container"></div>
+
+    <!-- Especiales -->
+    <h1 class="text-center py-2 fw-bold" id="especiales">Platos Especiales</h1>
+
+    <div class="menu-container col-md-8 mx-auto py-4">
+      <button type="button" class="btn btn-danger m-1" id="allBtn">TODOS</button>
+      <button type="button" class="btn btn-danger m-1" id="arrozBtn">ARROZ</button>
+      <button type="button" class="btn btn-danger m-1" id="especialesBtn">ESPECIALES</button>
+      <button type="button" class="btn btn-danger m-1" id="combinadosBtn">COMBINADOS</button>
+      <button type="button" class="btn btn-danger m-1" id="patoBtn">PATO</button>
+      <button type="button" class="btn btn-danger m-1" id="polloBtn">POLLO</button>
+      <button type="button" class="btn btn-danger m-1" id="chanchoBtn">CHANCHO</button>
+      <button type="button" class="btn btn-danger m-1" id="sopasBtn">SOPAS</button>
+      <button type="button" class="btn btn-danger m-1" id="tallarinesBtn">TALLARINES</button>
+    </div>
+
+    <div class="menu-container col-md-8 mx-auto pt-3 pb-5" id="especialesContainer"></div>
+
+     <!-- Mapa -->
+     <div class="map-container bg-white py-4">
+        <h2 class="text-center pt-3 fw-bold">UBÍCANOS EN AMARILIS</h2>
+        <div class="menu-container col-md-8 mx-auto p-4 my-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15719.814223966963!2d-76.2398333!3d-9.9378225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22b5cb9d56d9676f!2sCHIFA%20TAIWAN!5e0!3m2!1ses-419!2spe!4v1630446489576!5m2!1ses-419!2spe" width="1200" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+     <!-- Whatsapp -->
+     <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola!%20Quiero%20hacer%20un%20pedido" class="float" target="_blank">
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
+    <!-- Footer -->
+
+    <div class="footer-container py-1 mt-1" id="contacto">
+      <div class="col-md-6 mx-auto">
+        <h4 class="text-center text-white"><i class="fas fa-utensils m-3"></i>CHIFA TAIWAN</h4>
+        <p class="text-white text-center px-5 mx-2 text-footer fs-5">Ponemos a su disposición la mejor comida cantonesa, a fin de que puedan disfrutar de cerca un festival de sabores al estilo chino. <br> ¡LOS ESPERAMOS!</p>
+      </div>
+      <div class="col-lg-6 mx-auto p-3">
+        <div class="col-md-6 footer-div p-3"><i class="fas fa-home text-white fa-2x"></i><span class="text-white mx-3 mt-3">JIRÓN MIGUEL GRAU 101 - AMARILIS - HUÁNUCO</span></div>
+        <div class="col-md-6 footer-div p-3"><i class="fas fa-mobile-alt text-white fa-2x"></i><span class="text-white mx-3 mt-3">PARA PEDIDOS LLAME AL (062)-511822</span></div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="/js/class.js"></script>
+    <script src="/js/functions.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+</html>

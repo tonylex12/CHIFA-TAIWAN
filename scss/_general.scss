@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     background-color: #f4f4f8;
 }
@@ -13,8 +13,12 @@ img {
     max-width: 100%;
 }
 
+.bg-red {
+    background-color: $color1;
+}
+
 .fa-mobile-alt {
-    color: $color1;
+    color: #fff;
 }
 
 /* Banner */
@@ -37,6 +41,23 @@ img {
             }
         }
     }
+
+    @media (max-width: 767px) {
+        .banner-text {
+            visibility: hidden;
+        }
+    }
+}
+
+.schedule-container {
+    background-color: $black-bg;
+}
+.schedule-title {
+    color: $gold-title;
+}
+
+.schedule-description {
+    font-size: 1.25rem;
 }
 
 /* Search */
@@ -54,6 +75,7 @@ img {
 
 /* Menu */
 .menu-container {
+    font-family: 'Lato', sans-serif;
     @include flex-layout;
     flex-wrap: wrap;
     .btn-danger {
