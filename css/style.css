@@ -151,6 +151,7 @@ img {
 @media (max-width: 767px) {
   .float {
     right: 10px;
+    bottom: 30px;
   }
 }
 
