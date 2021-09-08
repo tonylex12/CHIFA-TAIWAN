@@ -148,6 +148,12 @@ img {
   z-index: 100;
 }
 
+@media (max-width: 767px) {
+  .float {
+    right: 10px;
+  }
+}
+
 .float:hover {
   text-decoration: none;
   color: #25d366;
