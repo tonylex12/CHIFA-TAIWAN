@@ -9,7 +9,7 @@ let sopas = [];
 let tallarines = [];
 
 $(document).ready(function () {
-    $.get('../especiales.json', function(data, status) {
+    $.get('especiales.json', function(data, status) {
         if(status == 'success') {
             for (let literal of data) {
                 dishes.push(new Dish(literal.name, literal.price, literal.id, literal.category))
