@@ -21,6 +21,13 @@ img {
     color: #fff;
 }
 
+.navbar-logo {
+    @media (max-width: 767px) {
+        width: 250px;
+        height: auto;
+    }
+}
+
 /* Banner */
 .container {
     .banner {

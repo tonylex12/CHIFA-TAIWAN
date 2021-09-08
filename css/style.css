@@ -20,6 +20,13 @@ img {
   color: #fff;
 }
 
+@media (max-width: 767px) {
+  .navbar-logo {
+    width: 250px;
+    height: auto;
+  }
+}
+
 /* Banner */
 .container .banner {
   background-image: url("../images/banner001.jpg");
